@@ -12,3 +12,14 @@ As this is a first version of the function, there is no error checking.  Only ca
 The function is relatively simple, for example, ContAndCNAME("TestContainer","MyDomain.com") would create a container named TestContainer, and a CNAME testcontainer.mydomain.com pointing to the public CDN URL for the new container.
 
 This function required installation of Rackspace's php-opencloud library.
+
+
+=======
+Credits
+=======
+Originally developed and released by Kevin Prigel, July 12, 2013
+
+=======
+License
+=======
+You are free to use this code as you wish.  Please contribute any improvements so that we all might benefit!
