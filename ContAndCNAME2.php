@@ -25,8 +25,7 @@ $container->Create(array('name'=>$ContName));
 
 // publish container to cdn, get url
 $cdnversion = $container->PublishToCDN();
-$CNAMEResolvesPre =$container->PublicURL();
-$CNAMEResolves=  str_replace("http://", "", $CNAMEResolvesPre);
+$CNAMEResolves =$container->PublicURL();
 
 // connect to dns
 $dns = $connection->DNS();
